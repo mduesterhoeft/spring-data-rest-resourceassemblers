@@ -1,6 +1,6 @@
 package com.example;
 
-import org.springframework.data.repository.PagingAndSortingRepository;
+import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface ProductRepository extends PagingAndSortingRepository<Product, Long> {
+public interface ProductRepository extends JpaRepository<Product, Long> {
 }

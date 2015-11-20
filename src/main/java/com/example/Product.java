@@ -9,7 +9,6 @@ import javax.persistence.Id;
 @Entity
 public class Product {
 
-
     @Id
     @GeneratedValue(strategy = IDENTITY)
     private Long id;
@@ -38,8 +37,4 @@ public class Product {
     public void setName(String name) {
         this.name = name;
     }
-
-
-
-
 }
